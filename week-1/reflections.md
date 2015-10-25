@@ -31,5 +31,25 @@ less pages through files
 rmdir removes a directory
 rm removes files or folders
 Help lists brief explanations of each command
+
 H1
 1.4 forking and cloning
+So you want to make a repo. You're in luck! I just so happened to pick that up recently! So first you're going to have to sign into your github. Or maybe sign up for one if you don't already have one. Next, you're going to want to find the little button that says create a new repository (hint: it's usually by the tiny picture of your face!) From there, you're going to want to name it (something that you'll remember), make it public (so it's not hidden away from the world), and give it an MIT license so no one gets sued for using it! Now hit the create repository button!
+
+Now you're going to want to fork something. Forking is something done to collaborate on software without affecting the original. So imagine a multiverse where the future spans out from this moment into infinite possible worlds. Your fork is your world and you get to control what happens there. Everyone else's fork is their own, and they'll create their own little version of the main branch. 
+
+So onto the mechanics of it. Go to the page where you're wanting to fork something. Hit the fork button on the top right of the screen, and now you have a copy in your github page!
+
+You'll probably want to do something with it at some point, maybe on your computer, i'm thinking in the command line, so you'll have to clone it over! 
+
+So find the clone url on the bottom right of the screen and copy it over.
+
+In your terminal, use the pwd command to make sure you're in a safe space (a directory that isn't the same thing). Then you type git clone whatevertheurlyoucopied, and then hit return and some stuff happens and you've got it!
+
+ 
+
+ 
+
+The struggles i had setting up git and github weren't very many. It was pretty smooth sailing with the exception of some vague instructions about windows. I'm pretty sure if i could do it all over again, i would do it in a mac os or linux something. 
+
+ 
