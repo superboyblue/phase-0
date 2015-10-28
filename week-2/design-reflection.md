@@ -1,3 +1,5 @@
+![this was done in paint](/imgs/site-map.jpg "sitemap")
+
 
 Q: What are the 6 Phases of Web Design?
 
