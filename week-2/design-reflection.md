@@ -1,5 +1,6 @@
 
 Q: What are the 6 Phases of Web Design?
+
 A: the 6 phases of the website design and development process are:
 
 -information gathering 
@@ -82,18 +83,23 @@ rental store? Then maybe it's time for an update. Get with the times, move
 and shake, keep up! You want people to keep coming, don't you?
 
 Q: What is your site's primary goal or purpose? What kind of content will your site feature?
+
 A: My site's primary goal right now is to function as a proving ground for whatever code I'm learning and hopefully make it so that someone else can learn from it, too. I'm hoping my site will contain content pertaining to my journey to become a web developer and any resources that helped me get there. 
 
 Q: What is your target audience's interests and how do you see your site addressing them?
+
 A: My target audience's interest will be in coding, programming, maybe learning more about the language of computers. If I can do it, anyone can! Although I haven't done it yet, I hope I'll get there and show people it isn't as unattainable as it seems.
 
 Q: What is the primary "action" the user should take when coming to your site? Do you want them to search for information, contact you, or see your portfolio? It's ok to have several actions at once, or different actions for different kinds of visitors.
+
 A: The primary action would probably be to read some content first, then have an option to see a portfolio. My first instinct is to make contacting me quite the hassle, like companies that hide phone numbers to customer service representitives so that irate customers will hopefully give up quickly and keep their complaints to themselves, but I would guess that I would have it as a secondary action so that they can reach me if they see anything they like. 
 
 Q: What are the main things someone should know about design and user experience?
+
 A: The main things people should know about design and user experience is that it's more about feel when it comes to designing. The entire concept of design has evolved since the inception of the internet. It's all about the user now, how they interact, how they feel. They need to consider who is accessing and from where and with what kind of hardware, so many considerations when it comes to design that developers of the past never had to deal with.
 
 Q: What is user experience design and why is it valuable? 
+
 A: User experience design (UXD) is a specialty in development that focuses 
 on the 'feel' of a particular website experience, an emotional response 
 that can be difficult to quantify by traditional metrics and requires an in 
@@ -136,4 +142,5 @@ every aspect of everything. It didn't even have copy and paste! And guess
 which one was wildly successful? Such is the power of UXD.    
 
 Q: Which parts of the challenge did you find tedious?
+
 A: I didn't find any part of this challenge tedious. 
