@@ -1,5 +1,5 @@
-[This is the index wireframe](/week-2/imgs/index-wire-frame.jpg "index")
-[This is the blog wireframe](/week-2/imgs/blog-wire-frame.jpg "blog")
+![This is the index wireframe](/week-2/imgs/index-wire-frame.jpg "index")
+![This is the blog wireframe](/week-2/imgs/blog-wire-frame.jpg "blog")
 
 
 Q: What is a wireframe?
