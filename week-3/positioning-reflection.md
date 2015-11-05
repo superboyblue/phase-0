@@ -1,15 +1,15 @@
 # 3.4 peer pair challenge reflection
 
 
-* ![screen shot 1](/chrome-devtools/imgs/screen-shot-1.png)
-* ![screen shot 2](/chrome-devtools/imgs/screen-shot-2.png)
-* ![screen shot 3](/chrome-devtools/imgs/screen-shot-3.png)
-* ![screen shot 4](/chrome-devtools/imgs/screen-shot-4.png)
-* ![screen shot 5](/chrome-devtools/imgs/screen-shot-5.png)
-* ![screen shot 6](/chrome-devtools/imgs/screen-shot-6.png)
-* ![screen shot 7](/chrome-devtools/imgs/screen-shot-7.png)
-* ![screen shot 8](/chrome-devtools/imgs/screen-shot-8.png)
-* ![screen shot 9](/chrome-devtools/imgs/screen-shot-9.png)
+* ![screen shot 1](/week-3/chrome-devtools/imgs/screen-shot-1.png)
+* ![screen shot 2](/week-3/chrome-devtools/imgs/screen-shot-2.png)
+* ![screen shot 3](/week-3/chrome-devtools/imgs/screen-shot-3.png)
+* ![screen shot 4](/week-3/chrome-devtools/imgs/screen-shot-4.png)
+* ![screen shot 5](/week-3/chrome-devtools/imgs/screen-shot-5.png)
+* ![screen shot 6](/week-3/chrome-devtools/imgs/screen-shot-6.png)
+* ![screen shot 7](/week-3/chrome-devtools/imgs/screen-shot-7.png)
+* ![screen shot 8](/week-3/chrome-devtools/imgs/screen-shot-8.png)
+* ![screen shot 9](/week-3/chrome-devtools/imgs/screen-shot-9.png)
 
 
 * Q: How can you use Chrome's DevTools inspector to help you format or position elements?
