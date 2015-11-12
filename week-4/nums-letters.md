@@ -13,14 +13,14 @@ Q:  What is the difference between float and integer division? How would you exp
 A:  The difference between float division and integer division is simple: Integer division will always return integer answers (no remainders, if there are any, it's rounded down), and float division will give you decimal places (so you can have fractional answers).
 Say I'm at the pie shop (because I really like pie) and I want to buy as many pies as I can afford (beacuse i really like pie). Each pie costs $5. I have $22.50. How many pies can I get? Integer division will tell you that I can buy 4 pies. I'll have $2.50 left over but who cares? I can't buy another pie with that because this pieshop only sells whole pies! So I go home with 4 pies and $2.50 left in my pocket. But say they sold by the slice also. They're really cool with me because I'm a returning customer and pie enthusiast, so they decide to make an exception for me. Float division will tell you that I can buy 4.5 pies, because my $2.50 is good at this pie store for  0.5 pie. I go home with 4.5 pies. My wallet may be empty, buy my tummy will not be! 
 
-
+```ruby
 Hours in a year
 days_in_year=365.25
 hours_in_day=24.0
 x=days_in_year*hours_in_day
 puts "there are #{x} hours in a year"
 
-
+```ruby
 Minutes in a decade
 years_in_decade=10.0
 days_in_year=365.25
