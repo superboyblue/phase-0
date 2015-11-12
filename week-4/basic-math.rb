@@ -1,6 +1,6 @@
 # Solution Below
 
-
+```ruby
 num1=42
 num2=17
 
