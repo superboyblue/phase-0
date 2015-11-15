@@ -28,3 +28,6 @@ puts "Your number may be your favorite, but #{superior_number} is greater. Liter
 # A:  In order to run an rspec file from the command line, you type 'rspec' followed by the file name.
 # Q:  What was confusing about this material? What made sense?
 # A:  The confusing thing about the material was getting the hang of running rspec and checking for failures in the tests. The things that made sense were the actual methods.
+
+#https://github.com/superboyblue/phase-0/blob/master/week-4/address/my_solution.rb
+#https://github.com/superboyblue/phase-0/blob/master/week-4/math/my_solution.rb
