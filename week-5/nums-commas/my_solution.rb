@@ -25,6 +25,33 @@ return a string separated by commas
 # and separate it. After that, return it in a string. 
 
 # 1. Initial Solution
+=begin
+def separate_comma(num)
+   	num_string = num.to_s 
+	if num < 1000
+		return num_string
+	elsif num >= 1000 && num <= 9999
+		return num_string.insert(-4,",")
+	elsif num >= 10000 && num <= 99999
+		return num_string.insert(-4,",")
+	elsif num >= 100000 && num <= 999999		
+		return num_string.insert(-4,",")
+	elsif num >= 1000000 && num <= 9999999		
+		return num_string.insert(-4,",").insert(-8,",")	
+	else num >= 10000000 && num <= 99999999
+		return num_string.insert(-4,",").insert(-8,",")	
+	end
+end
+=end
+
+# 2. Refactored Solution
+#def separate_comma(num)
+#array_of_numbers = []
+#until num.empty? do
+#  array_of_numbers << num.slice!(-1..-4).reverse!.join(",")
+# end
+# return array_of_numbers
+#end
 
 def separate_comma(num)
    	num_string = num.to_s 
@@ -36,17 +63,6 @@ def separate_comma(num)
 		return num_string.insert(-4,",").insert(-8,",")	
 	end
 end
-
-
-# 2. Refactored Solution
-#def separate_comma(num)
-#array_of_numbers = []
-#until num.empty?
-#  array_of_numbers << num.slice!(-1..-4).reverse!.join(",")
-# end
-# return array_of_numbers
-#end
-
 
 
 # 3. Reflection
@@ -65,6 +81,6 @@ Q: How did you initially iterate through the data structure?
 A: I iterated through the data structure with if else statements.
 
 Q: Do you feel your refactored solution is more readable than your initial solution? Why?
-A: I couldn't get a really good refactored solution with the methods I found. My intitial solution is as boiled down as I could get. 
+A: I couldn't get a really good refactored solution with the methods I found. i managed to cut out a few lines, that made more sense. 
 
 =end
