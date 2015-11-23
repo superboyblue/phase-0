@@ -4,28 +4,22 @@ Write a method that takes an array of strings
 divide it into smaller arrays
 =end
 =begin
-names = ["Jack Abernethy","Mohammad Amin","Zollie Barnes","Reuben Brandt","Dana Breen","Breton Burnett","Saundra Vanessa Castaneda","Luis De Castro","Nicolette Chambers","Kerry Choy","Nick Davies","Katherine DiAngelo","Adrian Diaz","David Diaz","Bob Dorff","Michael Du","Paul Dynowski","Jenna Espezua","Sean Fleming","Marcel Haesok","Albert Hahn","Arthur Head","Jonathan Huang","Thomas Huang","Alex Jamar","Kevin Jones","Steven Jones","Coleby Kent","Caroline Kenworthy","Calvin Lang","Yi Lu","David Ma","Sean Massih","Tom McHenry","Alex Mitzman","Lydia Nash","Brenda Nguyen","Matthew Oppenheimer","Mason Pierce","Joe Plonsker","Mira Scarvalone","Joseph Scott","Chris Shahin","Benjamin Shpringer","Lindsey Stevenson","Philip Thomas","Gary Tso","Ting Wang","Clinton Weber","Monique Williamson","Regina Wong","Hanah Yendler"]
-	names_of_cohort_mates = names.to_a.shuffle
-names_of_cohort_mates.each_slice( 4 ).to_a
-
-names = ("Jack Abernethy","Mohammad Amin","Zollie Barnes","Reuben Brandt","Dana Breen","Breton Burnett","Saundra Vanessa Castaneda","Luis De Castro","Nicolette Chambers","Kerry Choy","Nick Davies","Katherine DiAngelo","Adrian Diaz","David Diaz","Bob Dorff","Michael Du","Paul Dynowski","Jenna Espezua","Sean Fleming","Marcel Haesok","Albert Hahn","Arthur Head","Jonathan Huang","Thomas Huang","Alex Jamar","Kevin Jones","Steven Jones","Coleby Kent","Caroline Kenworthy","Calvin Lang","Yi Lu","David Ma","Sean Massih","Tom McHenry","Alex Mitzman","Lydia Nash","Brenda Nguyen","Matthew Oppenheimer","Mason Pierce","Joe Plonsker","Mira Scarvalone","Joseph Scott","Chris Shahin","Benjamin Shpringer","Lindsey Stevenson","Philip Thomas","Gary Tso","Ting Wang","Clinton Weber","Monique Williamson","Regina Wong","Hanah Yendler")
-
 
  def accountability_groups(names)
- 	names = ("Jack Abernethy","Mohammad Amin","Zollie Barnes","Reuben Brandt","Dana Breen","Breton Burnett","Saundra Vanessa Castaneda","Luis De Castro","Nicolette Chambers","Kerry Choy","Nick Davies","Katherine DiAngelo","Adrian Diaz","David Diaz","Bob Dorff","Michael Du","Paul Dynowski","Jenna Espezua","Sean Fleming","Marcel Haesok","Albert Hahn","Arthur Head","Jonathan Huang","Thomas Huang","Alex Jamar","Kevin Jones","Steven Jones","Coleby Kent","Caroline Kenworthy","Calvin Lang","Yi Lu","David Ma","Sean Massih","Tom McHenry","Alex Mitzman","Lydia Nash","Brenda Nguyen","Matthew Oppenheimer","Mason Pierce","Joe Plonsker","Mira Scarvalone","Joseph Scott","Chris Shahin","Benjamin Shpringer","Lindsey Stevenson","Philip Thomas","Gary Tso","Ting Wang","Clinton Weber","Monique Williamson","Regina Wong","Hanah Yendler")
  	names_of_cohort_mates = names.to_a
  	until names_of_cohort_mates.empty? do
  		names_of_cohort_mates << names.slice![0..3]
  	end
  end
+names = ("Jack Abernethy","Mohammad Amin","Zollie Barnes","Reuben Brandt","Dana Breen","Breton Burnett","Saundra Vanessa Castaneda","Luis De Castro","Nicolette Chambers","Kerry Choy","Nick Davies","Katherine DiAngelo","Adrian Diaz","David Diaz","Bob Dorff","Michael Du","Paul Dynowski","Jenna Espezua","Sean Fleming","Marcel Haesok","Albert Hahn","Arthur Head","Jonathan Huang","Thomas Huang","Alex Jamar","Kevin Jones","Steven Jones","Coleby Kent","Caroline Kenworthy","Calvin Lang","Yi Lu","David Ma","Sean Massih","Tom McHenry","Alex Mitzman","Lydia Nash","Brenda Nguyen","Matthew Oppenheimer","Mason Pierce","Joe Plonsker","Mira Scarvalone","Joseph Scott","Chris Shahin","Benjamin Shpringer","Lindsey Stevenson","Philip Thomas","Gary Tso","Ting Wang","Clinton Weber","Monique Williamson","Regina Wong","Hanah Yendler")
 
 =end
 def accountability_groups(names) 
-	names = ["Jack Abernethy","Mohammad Amin","Zollie Barnes","Reuben Brandt","Dana Breen","Breton Burnett","Saundra Vanessa Castaneda","Luis De Castro","Nicolette Chambers","Kerry Choy","Nick Davies","Katherine DiAngelo","Adrian Diaz","David Diaz","Bob Dorff","Michael Du","Paul Dynowski","Jenna Espezua","Sean Fleming","Marcel Haesok","Albert Hahn","Arthur Head","Jonathan Huang","Thomas Huang","Alex Jamar","Kevin Jones","Steven Jones","Coleby Kent","Caroline Kenworthy","Calvin Lang","Yi Lu","David Ma","Sean Massih","Tom McHenry","Alex Mitzman","Lydia Nash","Brenda Nguyen","Matthew Oppenheimer","Mason Pierce","Joe Plonsker","Mira Scarvalone","Joseph Scott","Chris Shahin","Benjamin Shpringer","Lindsey Stevenson","Philip Thomas","Gary Tso","Ting Wang","Clinton Weber","Monique Williamson","Regina Wong","Hanah Yendler"]
-	names_of_cohort_mates = names.to_a.shuffle
-names_of_cohort_mates.each_slice( 4 ).to_a
+	names_of_cohort_mates = names.shuffle
+	print names_of_cohort_mates.each_slice( 4 ).to_a
 end
-
+names = ["Jack Abernethy","Mohammad Amin","Zollie Barnes","Reuben Brandt","Dana Breen","Breton Burnett","Saundra Vanessa Castaneda","Luis De Castro","Nicolette Chambers","Kerry Choy","Nick Davies","Katherine DiAngelo","Adrian Diaz","David Diaz","Bob Dorff","Michael Du","Paul Dynowski","Jenna Espezua","Sean Fleming","Marcel Haesok","Albert Hahn","Arthur Head","Jonathan Huang","Thomas Huang","Alex Jamar","Kevin Jones","Steven Jones","Coleby Kent","Caroline Kenworthy","Calvin Lang","Yi Lu","David Ma","Sean Massih","Tom McHenry","Alex Mitzman","Lydia Nash","Brenda Nguyen","Matthew Oppenheimer","Mason Pierce","Joe Plonsker","Mira Scarvalone","Joseph Scott","Chris Shahin","Benjamin Shpringer","Lindsey Stevenson","Philip Thomas","Gary Tso","Ting Wang","Clinton Weber","Monique Williamson","Regina Wong","Hanah Yendler"]
+puts accountability_groups(names)
 =begin
 Q: What was the most interesting and most difficult part of this challenge?
 
