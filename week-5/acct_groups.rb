@@ -16,7 +16,7 @@ names = ("Jack Abernethy","Mohammad Amin","Zollie Barnes","Reuben Brandt","Dana 
 =end
 def accountability_groups(names) 
 	names_of_cohort_mates = names.shuffle
-	print names_of_cohort_mates.each_slice( 4 ).to_a
+	print names_of_cohort_mates.each_slice( 4 ) {|group| p group}
 end
 names = ["Jack Abernethy","Mohammad Amin","Zollie Barnes","Reuben Brandt","Dana Breen","Breton Burnett","Saundra Vanessa Castaneda","Luis De Castro","Nicolette Chambers","Kerry Choy","Nick Davies","Katherine DiAngelo","Adrian Diaz","David Diaz","Bob Dorff","Michael Du","Paul Dynowski","Jenna Espezua","Sean Fleming","Marcel Haesok","Albert Hahn","Arthur Head","Jonathan Huang","Thomas Huang","Alex Jamar","Kevin Jones","Steven Jones","Coleby Kent","Caroline Kenworthy","Calvin Lang","Yi Lu","David Ma","Sean Massih","Tom McHenry","Alex Mitzman","Lydia Nash","Brenda Nguyen","Matthew Oppenheimer","Mason Pierce","Joe Plonsker","Mira Scarvalone","Joseph Scott","Chris Shahin","Benjamin Shpringer","Lindsey Stevenson","Philip Thomas","Gary Tso","Ting Wang","Clinton Weber","Monique Williamson","Regina Wong","Hanah Yendler"]
 puts accountability_groups(names)
