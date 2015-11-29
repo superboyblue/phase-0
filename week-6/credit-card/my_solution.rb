@@ -6,9 +6,20 @@
 
 # Pseudocode
 
-# Input:
-# Output:
+# Input: an integer of 16 digits
+# Output: true or false or invalid entry
 # Steps:
+=begin
+make a method that takes an integer 16 digits long
+turn that integer into an array seperated into individual numbers
+riase an argument error if it's not 16 digits
+make a method to check the number based off of luhn's algorithm
+Do the math to check it
+if it's not right, return it false
+if it is, return it true
+
+	
+=end
 
 
 # Initial Solution

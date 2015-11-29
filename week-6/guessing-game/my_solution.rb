@@ -9,6 +9,12 @@
 # Input:
 # Output:
 # Steps:
+=begin
+initialize with an answer and a not solved yet so you can change it later
+put some conditions to return symbols based on what is given
+and if it's right, it's finished and it changes to true	
+=end
+	
 
 
 # Initial Solution
