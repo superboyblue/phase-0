@@ -11,14 +11,26 @@
 # Steps:
 
 class NameData
-
+	attr_accessor :name
+	def initialize(name)
+		@name = name
+	end
 end
 
 
 class Greetings
+	
+	def initialize
+		@namedata = NameData.new("gary")
+  	end
 
-end
+  	def salutations
+  		puts "#{@namedata.name}, would you like to play a game?"
+  	end
+  end
 
+greetings = Greetings.new
+greetings.salutations
 
 
 # Reflection
@@ -47,14 +59,16 @@ Q:  Is this code simpler than the last?
 A:  The code is indeed simpler than it was. 
 
 release 3
-Q:What changed between the last release and this release?
+Q:  What changed between the last release and this release?
 
-A:
+A:  An attribute writer was added.
 
-Q:What was replaced?
+Q:  What was replaced?
 
-A:
+A:  It replaced the method that changes the age.
 
-Q:Is this code simpler than the last?
+Q:  Is this code simpler than the last?
 
-A:
+A:  Yes, it is several lines shorter and is more readible. 
+
+=end
