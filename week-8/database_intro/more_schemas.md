@@ -1,5 +1,5 @@
 in line for one to one:
-![one to one](/week-8/)database_intro/one-to-one.png)
+![one to one](/week-8/database_intro/one-to-one.png)
 
 This relationship is one to one because you can't have more than 1 spouse. Right? So Spouse one can only have one spouse and spouse 2 can only have one spouse and that's all the spouses that they're allowed, so I guess that means it's one - to - one. Unless they're into that sort of thing. But for the most part, let's just assume that they aren't, and it isn't allowed. 
 
