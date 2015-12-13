@@ -28,6 +28,6 @@ How can you select information out of a SQL database? What are some general guid
 A: You can select information out of a SQL database by using the SELECT command followed by the names of the fields you want to get the data from. You can select with constraints using WHERE and then choosing between fields. 
 
 
-[schema][https://phase-0-dev-box/phase-0/week-8/database_intro/schema.png]
+![schema](/week-8/database_intro/schema.png)
 
 
