@@ -31,9 +31,16 @@ def reverser(string)
   sentence = string.reverse.split(' ').reverse.join(" ")
   
   end
-  
+
 
 
 
 
 # Reflection
+=begin
+What concepts did you review or learn in this challenge?
+I reviewed the concepts of iteration and how much i miss ruby. 
+What is still confusing to you about Ruby?
+some of the manually writing things out is still hard.
+What are you going to study to get more prepared for Phase 1?
+I'm going to continue to study methods and try to have a good idea about enumerators.
